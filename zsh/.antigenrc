@@ -1,0 +1,20 @@
+antigen use oh-my-zsh
+
+antigen theme agnoster
+
+antigen bundle git
+antigen bundle composer
+antigen bundle sudo
+#antigen bundle symfony2
+antigen bundle web-search
+antigen bundle archlinux
+antigen bundle akoenig/gulp.plugin.zsh
+antigen bundle smallhadroncollider/antigen-git-rebase
+antigen bundle supercrabtree/k
+antigen bundle voronkovich/symfony.plugin.zsh
+antigen bundle hkupty/ssh-agent
+
+#Syntax highlighting must be the last bundle
+antigen bundle zsh-users/zsh-syntax-highlighting
+antigen apply
+
