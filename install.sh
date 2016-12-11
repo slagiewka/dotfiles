@@ -11,6 +11,6 @@ for ZSH_CONFIG_FILE in $(find $DOTFILES_DIR/zsh -mindepth 1)
 do
 	ln -svf $ZSH_CONFIG_FILE ~
 done
-chsh -s $(which zsh)
+sudo chsh -s $(which zsh) $(whoami)
 
 ln -vf $DOTFILES_DIR/git/.gitconfig ~
