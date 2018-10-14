@@ -4,7 +4,7 @@ antigen init ~/.antigenrc
 
 #export PATH="/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl"
 
-export PATH=$PATH:/Users/shimmy/go/bin
+export PATH=$PATH:/Users/shimmy/go/bin:/home/shimmy/go/bin
 export LESS="-R"
 
 #Git aliasing
