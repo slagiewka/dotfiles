@@ -1,8 +1,11 @@
-#Antigen configuration
-source /usr/share/zsh/share/antigen.zsh
-antigen init .antigenrc
+#Anntigen configuration
+source /usr/local/share/antigen/antigen.zsh
+antigen init ~/.antigenrc
 
 #export PATH="/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl"
+
+export PATH=$PATH:/Users/shimmy/go/bin
+export LESS="-R"
 
 #Git aliasing
 alias ga='git add -A'
@@ -25,14 +28,3 @@ alias gri='git rebase -i'
 alias gmer='git merge'
 
 alias cl='clear'
-alias infa='cd /storage/INFA/'
-alias brghtns='xrandr --output "LVDS1" --brightness'
-
-function lemp() {
-    sudo systemctl $1 nginx php-fpm mysqld
-}
-
-function god() {
-    git checkout DEV-$1
-}
-
