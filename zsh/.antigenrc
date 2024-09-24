@@ -1,6 +1,8 @@
 antigen use oh-my-zsh
 
-antigen theme carloscuesta/materialshell
+antigen theme robbyrussell
+#antigen theme carloscuesta/materialshell
+antigen theme robbyrussell
 
 antigen bundle git
 #antigen bundle composer
@@ -11,7 +13,7 @@ antigen bundle web-search
 antigen bundle smallhadroncollider/antigen-git-rebase
 antigen bundle supercrabtree/k
 #antigen bundle voronkovich/symfony.plugin.zsh
-antigen bundle hkupty/ssh-agent
+#antigen bundle hkupty/ssh-agent
 antigen bundle MichaelAquilina/zsh-you-should-use
 antigen bundle zsh-users/zsh-autosuggestions 
 antigen bundle oldratlee/hacker-quotes
