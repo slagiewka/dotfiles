@@ -12,7 +12,7 @@ alias cl='clear'
 ## bindkey "[C" forward-word
 ## bindkey "[D" backward-word
 
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+source <(fzf --zsh)
 export PATH="/usr/local/opt/node@8/bin:$PATH"
 
 eval "$(direnv hook zsh)"
