@@ -17,4 +17,4 @@ source <(fzf --zsh)
 eval "$(direnv hook zsh)"
 eval "$(starship init zsh)"
 
-. "/home/shimmy/.deno/env"
+. $HOME/".deno/env"
