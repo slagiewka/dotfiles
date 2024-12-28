@@ -13,8 +13,8 @@ alias cl='clear'
 ## bindkey "[D" backward-word
 
 source <(fzf --zsh)
-export PATH="/usr/local/opt/node@8/bin:$PATH"
 
 eval "$(direnv hook zsh)"
 eval "$(starship init zsh)"
 
+. "/home/shimmy/.deno/env"
