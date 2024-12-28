@@ -8,3 +8,5 @@ font-feature="ss01"
 window-theme="dark"
 
 initial-command = "zsh -l -c zellij"
+
+macos-option-as-alt = true
