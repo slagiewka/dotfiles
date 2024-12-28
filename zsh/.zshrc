@@ -2,7 +2,7 @@
 source ~/antigen.zsh
 antigen init ~/.antigenrc
 
-export PATH=$PATH:/Users/shimmy/go/bin:/Users/shimmy/.cargo/bin
+export PATH=$PATH:$HOME/go/bin:$HOME/.cargo/bin
 export LESS="-R"
 
 alias cl='clear'
