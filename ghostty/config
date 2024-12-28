@@ -7,4 +7,4 @@ font-feature="ss01"
 
 window-theme="dark"
 
-initial-command = "zellij"
+initial-command = "zsh -l -c zellij"
