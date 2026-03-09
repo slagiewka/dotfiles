@@ -6,6 +6,8 @@ font-feature="ss01"
 font-feature="cv01=2"
 
 window-theme="dark"
+window-decoration="client"
+gtk-titlebar-style="tabs"
 
 macos-option-as-alt = true
 macos-titlebar-style=tabs
