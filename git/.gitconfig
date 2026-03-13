@@ -2,10 +2,12 @@
 	email = slagiewka@users.noreply.github.com
 	name = Szymon Łągiewka
 [core]
-  editor = vim
+  editor = nvim
 [gpg]
   format = ssh
 [user]
   signingkey = "key::ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIEn5AHve48zzNGStx/rJGJmTv/6FO9YXyhkmsj1Iov7Q slagiewka@users.noreply.github.com"
 [commit]
   gpgsign = true
+[url "git@github.com:"]
+	insteadOf = https://github.com/
