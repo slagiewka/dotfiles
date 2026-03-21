@@ -2,7 +2,7 @@
 source ~/antigen.zsh
 antigen init ~/.antigenrc
 
-export PATH=$PATH:$HOME/go/bin:$HOME/.cargo/bin:$HOME/.local/bin
+export PATH="$HOME/.local/go/bin:$HOME/go/bin:$HOME/.cargo/bin:$HOME/.local/bin:$PATH"
 export LESS="-R"
 
 alias cl='clear'
@@ -17,10 +17,10 @@ source <(fzf --zsh)
 eval "$(direnv hook zsh)"
 eval "$(starship init zsh)"
 
-[ -s "/Users/shimmy/.deno/env" ] && source $HOME/".deno/env"
+[ -s "$HOME/.deno/env" ] && source "$HOME/.deno/env"
 
 # bun completions
-[ -s "/Users/shimmy/.bun/_bun" ] && source "/Users/shimmy/.bun/_bun"
+[ -s "$HOME/.bun/_bun" ] && source "$HOME/.bun/_bun"
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
@@ -28,4 +28,4 @@ export NVM_DIR="$HOME/.nvm"
 
 
 # opencode
-export PATH=/home/shimmy/.opencode/bin:$PATH
+export PATH="$HOME/.opencode/bin:$PATH"
