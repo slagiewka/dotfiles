@@ -29,3 +29,6 @@ export NVM_DIR="$HOME/.nvm"
 
 # opencode
 export PATH="$HOME/.opencode/bin:$PATH"
+
+# fvm
+export PATH="$HOME/fvm/bin:$PATH"
