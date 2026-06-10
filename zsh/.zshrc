@@ -32,3 +32,4 @@ export PATH="$HOME/.opencode/bin:$PATH"
 
 # fvm
 export PATH="$HOME/fvm/bin:$PATH"
+eval "$(mise activate zsh)"
