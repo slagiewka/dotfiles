@@ -1,0 +1,11 @@
+[tools]
+bun = "latest"
+claude = "latest"
+deno = "latest"
+go = "1.26"
+golangci-lint = "latest"
+granted = "latest"
+herdr = "latest"
+lazydocker = "latest"
+node = "26"
+pnpm = "9"
