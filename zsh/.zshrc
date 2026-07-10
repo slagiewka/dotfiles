@@ -12,7 +12,6 @@ alias cl='clear'
 ## bindkey "[C" forward-word
 ## bindkey "[D" backward-word
 
-source <(fzf --zsh)
 
 eval "$(direnv hook zsh)"
 eval "$(starship init zsh)"
@@ -25,3 +24,4 @@ eval "$(starship init zsh)"
 # fvm
 export PATH="$HOME/fvm/bin:$PATH"
 eval "$(mise activate zsh)"
+source <(fzf --zsh)
