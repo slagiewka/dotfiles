@@ -1,4 +1,5 @@
 [tools]
+aws = { version = "latest", symlink_bins = "true" }
 bun = "latest"
 claude = "latest"
 deno = "latest"
@@ -6,6 +7,8 @@ go = "1.26"
 golangci-lint = "latest"
 granted = "latest"
 herdr = "latest"
+k9s = "latest"
+kubectl = "latest"
 lazydocker = "latest"
 node = "26"
 opencode = "latest"
