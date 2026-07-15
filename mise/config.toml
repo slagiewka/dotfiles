@@ -17,3 +17,6 @@ node = "26"
 opencode = "latest"
 pnpm = "9"
 terraform = "latest"
+
+[settings]
+idiomatic_version_file_enable_tools = ["node"]
