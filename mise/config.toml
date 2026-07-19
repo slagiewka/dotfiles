@@ -15,7 +15,7 @@ lazydocker = "latest"
 lazygit = "latest"
 node = "26"
 opencode = "latest"
-pnpm = "9"
+pnpm = "11"
 terraform = "latest"
 
 [settings]
