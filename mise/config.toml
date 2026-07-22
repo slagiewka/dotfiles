@@ -14,9 +14,11 @@ kubectl = "latest"
 lazydocker = "latest"
 lazygit = "latest"
 node = "26"
+nub = "latest"
 opencode = "latest"
 pnpm = "11"
 terraform = "latest"
+uv = "latest"
 
 [settings]
 idiomatic_version_file_enable_tools = ["node"]
