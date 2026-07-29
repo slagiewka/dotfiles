@@ -1,5 +1,6 @@
 [tools]
 aws = { version = "latest", symlink_bins = "true" }
+btop = "latest"
 bun = "latest"
 claude = "latest"
 deno = "latest"
@@ -20,6 +21,11 @@ opencode = "latest"
 pnpm = "11"
 terraform = "latest"
 uv = "latest"
+bottom = "latest"
+fastfetch = "latest"
+usage = "latest"
+jq = "latest"
+gh = "latest"
 
 [settings]
 idiomatic_version_file_enable_tools = ["node", "go"]
