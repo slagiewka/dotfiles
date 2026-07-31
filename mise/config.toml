@@ -14,7 +14,7 @@ k9s = "latest"
 kubectl = "latest"
 lazydocker = "latest"
 lazygit = "latest"
-neovim = "0.11.6"
+neovim = "0.12.4"
 node = "26"
 nub = "latest"
 opencode = "latest"
@@ -26,6 +26,7 @@ fastfetch = "latest"
 usage = "latest"
 jq = "latest"
 gh = "latest"
+tree-sitter = "latest"
 
 [settings]
-idiomatic_version_file_enable_tools = ["node", "go"]
+idiomatic_version_file_enable_tools = ["node", "go", "npm"]
