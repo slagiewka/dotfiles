@@ -2,8 +2,12 @@ eval "$(mise activate zsh)"
 eval "$(direnv hook zsh)"
 eval "$(starship init zsh)"
 
-#Anntigen configuration
-source ~/antigen.zsh
+# Antigen configuration
+if [[ -r ~/.local/share/antigen/antigen.zsh ]]; then
+  source ~/.local/share/antigen/antigen.zsh
+else
+  source ~/antigen.zsh
+fi
 antigen init ~/.antigenrc
 
 source <(fzf --zsh)

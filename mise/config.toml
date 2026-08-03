@@ -1,8 +1,12 @@
 [tools]
 aws = { version = "latest", symlink_bins = "true" }
 btop = [
-  { version = "latest", os = ["linux"] },
-  { version = "1.2.13", os = ["macos"] },
+  { version = "latest", os = [
+    "linux",
+  ] },
+  { version = "1.2.13", os = [
+    "macos",
+  ] },
 ]
 bun = "latest"
 claude = "latest"
@@ -12,8 +16,12 @@ fzf = "latest"
 go = "1.26"
 golangci-lint = "latest"
 granted = [
-  { version = "latest", os = ["linux"] },
-  { version = "0.38.0", os = ["macos"] },
+  { version = "latest", os = [
+    "linux",
+  ] },
+  { version = "0.38.0", os = [
+    "macos",
+  ] },
 ]
 herdr = "latest"
 k9s = "latest"
@@ -44,3 +52,21 @@ idiomatic_version_file_enable_tools = ["node", "go", "npm"]
 
 [plugins]
 postgres-binary = "https://github.com/kyleking/mise-postgres-binary"
+
+[bootstrap.packages]
+"dnf:git" = "latest"
+"dnf:zsh" = "latest"
+
+[bootstrap.repos]
+"~/.local/share/antigen" = { url = "https://github.com/zsh-users/antigen.git", ref = "d3d4ee03897eed73efc20c3f779b31194bfa64d8" }
+
+[dotfiles]
+"~/.config/mise/config.toml" = "config.toml"
+"~/.zprofile" = "../zsh/.zprofile"
+"~/.zshrc" = "../zsh/.zshrc"
+"~/.antigenrc" = "../zsh/.antigenrc"
+"~/.gitconfig" = "../git/.gitconfig"
+"~/.config/ghostty" = "../ghostty"
+
+[bootstrap.user]
+login_shell = "/bin/zsh"
