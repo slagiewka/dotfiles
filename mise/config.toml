@@ -30,6 +30,7 @@ tree-sitter = "latest"
 ninja = "latest"
 "postgres-binary:postgres" = "18.4.0"
 starship = "latest"
+ripgrep = "latest"
 
 [settings]
 idiomatic_version_file_enable_tools = ["node", "go", "npm"]
