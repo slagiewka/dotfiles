@@ -31,7 +31,7 @@ ninja = "latest"
 "postgres-binary:postgres" = "18.4.0"
 starship = "latest"
 ripgrep = "latest"
-mysql = "8.4"
+"vfox:jdx/vfox-mysql" = "8.4"
 
 [settings]
 idiomatic_version_file_enable_tools = ["node", "go", "npm"]
