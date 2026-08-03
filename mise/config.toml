@@ -28,6 +28,10 @@ jq = "latest"
 gh = "latest"
 tree-sitter = "latest"
 ninja = "latest"
+"postgres-binary:postgres" = "18.4.0"
 
 [settings]
 idiomatic_version_file_enable_tools = ["node", "go", "npm"]
+
+[plugins]
+postgres-binary = "https://github.com/kyleking/mise-postgres-binary"
