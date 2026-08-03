@@ -27,6 +27,7 @@ usage = "latest"
 jq = "latest"
 gh = "latest"
 tree-sitter = "latest"
+ninja = "latest"
 
 [settings]
 idiomatic_version_file_enable_tools = ["node", "go", "npm"]
