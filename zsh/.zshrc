@@ -1,6 +1,4 @@
-export PATH="$HOME/.local/bin:$PATH"
-
-eval "$(mise activate zsh)"
+eval "$("$HOME/.local/bin/mise" activate zsh)"
 eval "$(direnv hook zsh)"
 eval "$(starship init zsh)"
 
