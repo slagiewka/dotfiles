@@ -60,6 +60,17 @@ postgres-binary = "https://github.com/kyleking/mise-postgres-binary"
 [bootstrap.repos]
 "~/.local/share/antigen" = { url = "https://github.com/zsh-users/antigen.git", ref = "d3d4ee03897eed73efc20c3f779b31194bfa64d8" }
 
+[bootstrap.macos.dock]
+autohide = true
+show_recents = false
+mru_spaces = false
+
+[bootstrap.macos.keyboard]
+press_and_hold = false
+
+[bootstrap.macos.trackpad]
+tap_to_click = true
+
 [dotfiles]
 "~/.config/mise/config.toml" = "config.toml"
 "~/.zprofile" = "../zsh/.zprofile"
