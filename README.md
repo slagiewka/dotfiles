@@ -53,7 +53,7 @@ Bootstrap currently manages:
 
 - Git and Zsh system packages on Fedora
 - Development tools installed through mise
-- The Antigen checkout
+- The Antidote checkout
 - Git, Zsh, mise, and Ghostty configuration
 - The login shell
 - Dock, keyboard, and trackpad preferences on macOS
@@ -73,9 +73,3 @@ Homebrew formulae and casks, Mac App Store applications, and services are intent
 Account authentication, SSH private keys, and privacy permissions such as Accessibility, Screen Recording, and Full Disk Access remain manual steps.
 
 Some macOS preference changes require restarting the affected application or starting a new login session.
-
-## Antigen Version
-
-Antigen is pinned to commit `d3d4ee03897eed73efc20c3f779b31194bfa64d8`, the commit referenced by the `v2.2.3` release.
-
-The commit SHA is used instead of the annotated tag because the tag can cause mise to report the repository as differing even when the correct commit is checked out.

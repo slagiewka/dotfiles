@@ -58,7 +58,7 @@ postgres-binary = "https://github.com/kyleking/mise-postgres-binary"
 "dnf:zsh" = "latest"
 
 [bootstrap.repos]
-"~/.local/share/antigen" = { url = "https://github.com/zsh-users/antigen.git", ref = "d3d4ee03897eed73efc20c3f779b31194bfa64d8" }
+"~/.antidote" = { url = "https://github.com/mattmc3/antidote.git", ref = "v2.2.1" }
 
 [bootstrap.macos.dock]
 autohide = true
@@ -75,7 +75,6 @@ tap_to_click = true
 "~/.config/mise/config.toml" = "config.toml"
 "~/.zprofile" = "../zsh/.zprofile"
 "~/.zshrc" = "../zsh/.zshrc"
-"~/.antigenrc" = "../zsh/.antigenrc"
 "~/.gitconfig" = "../git/.gitconfig"
 "~/.config/ghostty" = "../ghostty"
 
