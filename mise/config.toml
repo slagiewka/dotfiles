@@ -59,6 +59,7 @@ postgres-binary = "https://github.com/kyleking/mise-postgres-binary"
 
 [bootstrap.repos]
 "~/.antidote" = { url = "https://github.com/mattmc3/antidote.git", ref = "v2.2.1" }
+"~/.config/nvim" = { url = "https://github.com/slagiewka/nvimconf.git", ref = "main" }
 
 [bootstrap.macos.dock]
 autohide = true
