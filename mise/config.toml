@@ -11,7 +11,6 @@ btop = [
 bun = "latest"
 claude = "latest"
 deno = "latest"
-direnv = "latest"
 fzf = "latest"
 go = "1.26"
 golangci-lint = "latest"

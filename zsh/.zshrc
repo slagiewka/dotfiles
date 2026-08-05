@@ -1,5 +1,4 @@
 eval "$("$HOME/.local/bin/mise" activate zsh)"
-eval "$(direnv hook zsh)"
 eval "$(starship init zsh)"
 
 # Antidote plugin manager
