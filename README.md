@@ -55,6 +55,7 @@ Bootstrap currently manages:
 - Development tools installed through mise
 - The Antidote checkout
 - Git, Zsh, mise, and Ghostty configuration
+- The Zsh plugin list (`zsh/.zsh_plugins.txt`), loaded by Antidote in static mode
 - The login shell
 - Dock, keyboard, and trackpad preferences on macOS
 

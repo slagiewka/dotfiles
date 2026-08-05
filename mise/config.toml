@@ -75,6 +75,7 @@ tap_to_click = true
 "~/.config/mise/config.toml" = "config.toml"
 "~/.zprofile" = "../zsh/.zprofile"
 "~/.zshrc" = "../zsh/.zshrc"
+"~/.zsh_plugins.txt" = "../zsh/.zsh_plugins.txt"
 "~/.gitconfig" = "../git/.gitconfig"
 "~/.config/git/ignore" = "../git/ignore"
 "~/.config/ghostty" = "../ghostty"

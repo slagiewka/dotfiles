@@ -1,0 +1,8 @@
+getantidote/use-omz
+ohmyzsh/ohmyzsh path:lib
+ohmyzsh/ohmyzsh path:plugins/git
+ohmyzsh/ohmyzsh path:plugins/sudo
+zsh-users/zsh-autosuggestions
+
+# Syntax highlighting must be the last bundle
+zsh-users/zsh-syntax-highlighting
