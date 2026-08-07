@@ -55,6 +55,7 @@ postgres-binary = "https://github.com/kyleking/mise-postgres-binary"
 [bootstrap.packages]
 "dnf:git" = "latest"
 "dnf:zsh" = "latest"
+"flatpak:org.localsend.localsend_app" = "latest"
 
 [bootstrap.repos]
 "~/.antidote" = { url = "https://github.com/mattmc3/antidote.git", ref = "v2.2.1" }
