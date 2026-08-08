@@ -1,27 +1,13 @@
 [tools]
 aws = { version = "latest", symlink_bins = "true" }
-btop = [
-  { version = "latest", os = [
-    "linux",
-  ] },
-  { version = "1.2.13", os = [
-    "macos",
-  ] },
-]
+btop = [{ version = "latest", os = ["linux"] }]
 bun = "latest"
 claude = "latest"
 deno = "latest"
 fzf = "latest"
 go = "1.26"
 golangci-lint = "latest"
-granted = [
-  { version = "latest", os = [
-    "linux",
-  ] },
-  { version = "0.38.0", os = [
-    "macos",
-  ] },
-]
+granted = [{ version = "latest", os = ["linux"] }]
 herdr = "latest"
 k9s = "latest"
 kubectl = "latest"
@@ -74,7 +60,9 @@ press_and_hold = false
 tap_to_click = true
 
 [dotfiles]
+"~/.config/mise/miserc.toml" = "miserc.toml"
 "~/.config/mise/config.toml" = "config.toml"
+"~/.config/mise/config.macos.toml" = "config.macos.toml"
 "~/.zprofile" = "../zsh/.zprofile"
 "~/.zshrc" = "../zsh/.zshrc"
 "~/.zsh_plugins.txt" = "../zsh/.zsh_plugins.txt"
