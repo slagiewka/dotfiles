@@ -47,6 +47,7 @@ postgres-binary = "https://github.com/kyleking/mise-postgres-binary"
 [bootstrap.repos]
 "~/.antidote" = { url = "https://github.com/mattmc3/antidote.git", ref = "v2.2.1" }
 "~/.config/nvim" = { url = "https://github.com/slagiewka/nvimconf.git", ref = "main" }
+"~/code/work/dotfiles-work" = { url = "https://github.com/slagiewka/dotfiles-work.git", ref = "master" }
 
 [bootstrap.macos.dock]
 autohide = true
@@ -63,6 +64,7 @@ tap_to_click = true
 "~/.config/mise/miserc.toml" = "~/code/slagiewka/dotfiles/mise/miserc.toml"
 "~/.config/mise/config.toml" = "~/code/slagiewka/dotfiles/mise/config.toml"
 "~/.config/mise/config.macos.toml" = "~/code/slagiewka/dotfiles/mise/config.macos.toml"
+"~/.config/mise/conf.d/work.toml" = "~/code/work/dotfiles-work/work.toml"
 "~/.zshrc" = "~/code/slagiewka/dotfiles/zsh/.zshrc"
 "~/.zsh_plugins.txt" = "~/code/slagiewka/dotfiles/zsh/.zsh_plugins.txt"
 "~/.gitconfig" = "~/code/slagiewka/dotfiles/git/.gitconfig"
