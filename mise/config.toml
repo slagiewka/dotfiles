@@ -60,14 +60,14 @@ press_and_hold = false
 tap_to_click = true
 
 [dotfiles]
-"~/.config/mise/miserc.toml" = "miserc.toml"
-"~/.config/mise/config.toml" = "config.toml"
-"~/.config/mise/config.macos.toml" = "config.macos.toml"
-"~/.zshrc" = "../zsh/.zshrc"
-"~/.zsh_plugins.txt" = "../zsh/.zsh_plugins.txt"
-"~/.gitconfig" = "../git/.gitconfig"
-"~/.config/git/ignore" = "../git/ignore"
-"~/.config/ghostty" = "../ghostty"
+"~/.config/mise/miserc.toml" = "~/code/slagiewka/dotfiles/mise/miserc.toml"
+"~/.config/mise/config.toml" = "~/code/slagiewka/dotfiles/mise/config.toml"
+"~/.config/mise/config.macos.toml" = "~/code/slagiewka/dotfiles/mise/config.macos.toml"
+"~/.zshrc" = "~/code/slagiewka/dotfiles/zsh/.zshrc"
+"~/.zsh_plugins.txt" = "~/code/slagiewka/dotfiles/zsh/.zsh_plugins.txt"
+"~/.gitconfig" = "~/code/slagiewka/dotfiles/git/.gitconfig"
+"~/.config/git/ignore" = "~/code/slagiewka/dotfiles/git/ignore"
+"~/.config/ghostty" = "~/code/slagiewka/dotfiles/ghostty"
 
 [bootstrap.user]
 login_shell = "/bin/zsh"
