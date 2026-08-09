@@ -63,7 +63,6 @@ tap_to_click = true
 "~/.config/mise/miserc.toml" = "miserc.toml"
 "~/.config/mise/config.toml" = "config.toml"
 "~/.config/mise/config.macos.toml" = "config.macos.toml"
-"~/.zprofile" = "../zsh/.zprofile"
 "~/.zshrc" = "../zsh/.zshrc"
 "~/.zsh_plugins.txt" = "../zsh/.zsh_plugins.txt"
 "~/.gitconfig" = "../git/.gitconfig"
