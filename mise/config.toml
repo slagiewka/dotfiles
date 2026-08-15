@@ -41,7 +41,7 @@ matching = "fff-mcp"
 bin = "fff-mcp"
 
 [settings]
-idiomatic_version_file_enable_tools = ["node", "go", "npm"]
+idiomatic_version_file_enable_tools = ["node", "go", "npm", "pnpm"]
 
 [plugins]
 postgres-binary = "https://github.com/kyleking/mise-postgres-binary"
