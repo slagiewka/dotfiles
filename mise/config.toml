@@ -33,9 +33,9 @@ ripgrep = "latest"
 "vfox:jdx/vfox-mysql" = "8.4"
 
 [tool_alias]
-"fff-mcp" = "github:dmtrKovalenko/fff"
+"cliamp" = "github:bjarneo/cliamp"
 
-[tools.fff-mcp]
+[tools."github:dmtrKovalenko/fff"]
 version = "latest"
 matching = "fff-mcp"
 bin = "fff-mcp"
