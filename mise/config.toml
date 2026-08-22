@@ -46,11 +46,22 @@ idiomatic_version_file_enable_tools = ["node", "go", "npm", "pnpm"]
 [plugins]
 postgres-binary = "https://github.com/kyleking/mise-postgres-binary"
 
+[bootstrap.hooks]
+pre-packages = [
+  "if command -v dnf >/dev/null 2>&1 && ! dnf repolist --enabled tailscale-stable >/dev/null 2>&1; then sudo dnf config-manager --add-repo https://pkgs.tailscale.com/stable/fedora/tailscale.repo; fi",
+  "if command -v dnf >/dev/null 2>&1 && ! dnf repolist --enabled copr:copr.fedorainfracloud.org:scottames:ghostty >/dev/null 2>&1; then sudo dnf copr enable -y scottames/ghostty; fi",
+]
+
 [bootstrap.packages]
 "dnf:git" = "latest"
 "dnf:zsh" = "latest"
+"dnf:tailscale" = "latest"
+"dnf:ghostty" = "latest"
 "flatpak:org.localsend.localsend_app" = "latest"
 "flatpak:com.yubico.yubioath" = "latest"
+
+[bootstrap.services]
+tailscaled = {}
 
 [bootstrap.repos]
 "~/.antidote" = { url = "https://github.com/mattmc3/antidote.git", ref = "v2.2.1" }
