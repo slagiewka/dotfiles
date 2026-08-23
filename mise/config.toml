@@ -6,7 +6,6 @@ deno = "latest"
 fzf = "latest"
 go = "1.26"
 golangci-lint = "latest"
-granted = [{ version = "latest", os = ["linux"] }]
 herdr = "0.8.2"
 k9s = "latest"
 kubectl = "latest"
@@ -43,24 +42,6 @@ idiomatic_version_file_enable_tools = ["node", "go", "npm", "pnpm"]
 [plugins]
 postgres-binary = "https://github.com/kyleking/mise-postgres-binary"
 
-[bootstrap.hooks]
-pre-packages = [
-  "if command -v dnf >/dev/null 2>&1 && ! dnf repolist --enabled tailscale-stable >/dev/null 2>&1; then sudo dnf config-manager --add-repo https://pkgs.tailscale.com/stable/fedora/tailscale.repo; fi",
-  "if command -v dnf >/dev/null 2>&1 && ! dnf repolist --enabled copr:copr.fedorainfracloud.org:scottames:ghostty >/dev/null 2>&1; then sudo dnf copr enable -y scottames/ghostty; fi",
-]
-
-[bootstrap.packages]
-"dnf:btop" = "latest"
-"dnf:git" = "latest"
-"dnf:zsh" = "latest"
-"dnf:tailscale" = "latest"
-"dnf:ghostty" = "latest"
-"flatpak:org.localsend.localsend_app" = "latest"
-"flatpak:com.yubico.yubioath" = "latest"
-
-[bootstrap.services]
-tailscaled = {}
-
 [bootstrap.repos]
 "~/.antidote" = { url = "https://github.com/mattmc3/antidote.git", ref = "v2.2.1" }
 "~/.config/nvim" = { url = "https://github.com/slagiewka/nvimconf.git", ref = "main" }
@@ -81,6 +62,7 @@ tap_to_click = true
 "~/.config/mise/miserc.toml" = "~/code/slagiewka/dotfiles/mise/miserc.toml"
 "~/.config/mise/config.toml" = "~/code/slagiewka/dotfiles/mise/config.toml"
 "~/.config/mise/config.macos.toml" = "~/code/slagiewka/dotfiles/mise/config.macos.toml"
+"~/.config/mise/config.linux.toml" = "~/code/slagiewka/dotfiles/mise/config.linux.toml"
 "~/.config/mise/conf.d/work.toml" = "~/code/work/dotfiles-work/work.toml"
 "~/.zshrc" = "~/code/slagiewka/dotfiles/zsh/.zshrc"
 "~/.zsh_plugins.txt" = "~/code/slagiewka/dotfiles/zsh/.zsh_plugins.txt"

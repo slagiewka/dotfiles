@@ -1,0 +1,20 @@
+[tools]
+granted = "latest"
+
+[bootstrap.hooks]
+pre-packages = [
+  "if command -v dnf >/dev/null 2>&1 && ! dnf repolist --enabled tailscale-stable >/dev/null 2>&1; then sudo dnf config-manager --add-repo https://pkgs.tailscale.com/stable/fedora/tailscale.repo; fi",
+  "if command -v dnf >/dev/null 2>&1 && ! dnf repolist --enabled copr:copr.fedorainfracloud.org:scottames:ghostty >/dev/null 2>&1; then sudo dnf copr enable -y scottames/ghostty; fi",
+]
+
+[bootstrap.packages]
+"dnf:btop" = "latest"
+"dnf:git" = "latest"
+"dnf:zsh" = "latest"
+"dnf:tailscale" = "latest"
+"dnf:ghostty" = "latest"
+"flatpak:org.localsend.localsend_app" = "latest"
+"flatpak:com.yubico.yubioath" = "latest"
+
+[bootstrap.services]
+tailscaled = {}
