@@ -32,8 +32,8 @@ starship = "latest"
 ripgrep = "latest"
 "vfox:jdx/vfox-mysql" = "8.4"
 
-[tool_alias]
-"cliamp" = "github:bjarneo/cliamp"
+[tools."github:bjarneo/cliamp"]
+version = "latest"
 
 [tools."github:dmtrKovalenko/fff"]
 version = "latest"
