@@ -8,7 +8,7 @@ fzf = "latest"
 go = "1.26"
 golangci-lint = "latest"
 granted = [{ version = "latest", os = ["linux"] }]
-herdr = "latest"
+herdr = "0.8.2"
 k9s = "latest"
 kubectl = "latest"
 lazydocker = "latest"
