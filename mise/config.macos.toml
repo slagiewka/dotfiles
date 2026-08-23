@@ -6,3 +6,14 @@
 "brew-cask:localsend" = "latest"
 "brew-cask:font-monaspace" = "latest"
 "brew-cask:battery" = "latest"
+
+[bootstrap.macos.dock]
+autohide = true
+show_recents = false
+mru_spaces = false
+
+[bootstrap.macos.keyboard]
+press_and_hold = false
+
+[bootstrap.macos.trackpad]
+tap_to_click = true

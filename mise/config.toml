@@ -47,17 +47,6 @@ postgres-binary = "https://github.com/kyleking/mise-postgres-binary"
 "~/.config/nvim" = { url = "https://github.com/slagiewka/nvimconf.git", ref = "main" }
 "~/code/work/dotfiles-work" = { url = "https://github.com/slagiewka/dotfiles-work.git", ref = "master" }
 
-[bootstrap.macos.dock]
-autohide = true
-show_recents = false
-mru_spaces = false
-
-[bootstrap.macos.keyboard]
-press_and_hold = false
-
-[bootstrap.macos.trackpad]
-tap_to_click = true
-
 [dotfiles]
 "~/.config/mise/miserc.toml" = "~/code/slagiewka/dotfiles/mise/miserc.toml"
 "~/.config/mise/config.toml" = "~/code/slagiewka/dotfiles/mise/config.toml"
