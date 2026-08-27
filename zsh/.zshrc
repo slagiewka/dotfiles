@@ -8,3 +8,4 @@ source $HOME/.antidote/antidote.zsh
 antidote load
 
 source <(fzf --zsh)
+eval "$(zoxide init zsh)"
