@@ -40,6 +40,9 @@ bin = "fff-mcp"
 [settings]
 idiomatic_version_file_enable_tools = ["node", "go", "npm", "pnpm"]
 
+[settings.github]
+credential_command = "gh auth token"
+
 [plugins]
 postgres-binary = "https://github.com/kyleking/mise-postgres-binary"
 
