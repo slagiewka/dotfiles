@@ -1,5 +1,6 @@
 [bootstrap.packages]
 "brew:btop" = "latest"
+"brew:fish" = "latest"
 "brew:granted" = "latest"
 "brew-cask:ghostty" = "latest"
 "brew-cask:keepassxc" = "latest"

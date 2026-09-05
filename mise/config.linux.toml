@@ -11,6 +11,7 @@ pre-packages = [
 "dnf:btop" = "latest"
 "dnf:git" = "latest"
 "dnf:zsh" = "latest"
+"dnf:fish" = "latest"
 "dnf:tailscale" = "latest"
 "dnf:ghostty" = "latest"
 "flatpak:org.localsend.localsend_app" = "latest"
