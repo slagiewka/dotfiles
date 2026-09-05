@@ -23,3 +23,6 @@ press_and_hold = false
 
 [bootstrap.macos.trackpad]
 tap_to_click = true
+
+[bootstrap.user]
+login_shell = "/opt/homebrew/bin/fish"
