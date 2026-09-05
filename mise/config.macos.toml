@@ -6,8 +6,12 @@
 "brew-cask:keepassxc" = "latest"
 "brew-cask:localsend" = "latest"
 "brew-cask:font-monaspace" = "latest"
-"brew-cask:battery" = "latest"
 "brew-cask:syncthing-app" = "latest"
+"brew-cask:firefox" = "latest"
+"brew-cask:raycast" = "latest"
+"brew-cask:tailscale-app" = "latest"
+"brew-cask:space-rabbit" = "latest"
+"brew-cask:tidal" = "latest"
 
 [bootstrap.macos.dock]
 autohide = true
