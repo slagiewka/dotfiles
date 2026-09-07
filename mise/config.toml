@@ -65,4 +65,4 @@ postgres-binary = "https://github.com/kyleking/mise-postgres-binary"
 "~/.config/ghostty" = "~/code/slagiewka/dotfiles/ghostty"
 
 [bootstrap.user]
-login_shell = "/bin/zsh"
+login_shell = "/bin/fish"
